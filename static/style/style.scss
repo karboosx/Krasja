@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+body {
+  font-famaily: 'Exo', sans-serif;
+  margin:0;
+  padding: 0;
+}
+.ab{
+  background: red;
+  .abc {
+    background-color: aqua;
+  }
+
+  .a{
+    background-image: url("../src/assets/logo.png");
+    height: 200px;
+  }
+}
