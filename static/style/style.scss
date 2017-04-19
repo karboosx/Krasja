@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Exo');
+@import url('http://fonts.googleapis.com/css?family=Sarala&subset=latin,latin-ext');
 
 body {
-  font-family: 'Exo', sans-serif;
+  font-family: 'Sarala', sans-serif;
   margin: 0;
   padding: 0;
   font-size: 18px;
@@ -19,13 +19,15 @@ body {
     height: 850px;
 
     .header_navbar {
+      padding-top: 5px;
+      padding-bottom: 5px;
       overflow: hidden;
       position: fixed;
       width: 100%;
       display: flex;
       justify-content: space-around;
-      height: 80px;
-      background-color: rgba(0, 0, 0, 0.50);
+      height: 70px;
+      background-color: rgba(0, 0, 0, 0.7);
 
       .header_navbar--logo {
         height: 100%;
@@ -46,8 +48,10 @@ body {
           .link--href {
             text-decoration: none;
             color: #ffffff;
+            transition: .35s;
 
             &:hover {
+              filter: grayscale(0);
               color: #feb047;
             }
           }
@@ -59,12 +63,14 @@ body {
       height: 100%;
 
       .header_title--name {
+        font-size: 15.1rem;
+        text-shadow: 4px 4px #000;
+        line-height: 100%;
         margin: 0;
         display: flex;
         justify-content: center;
         padding-top: 15%;
-        font-size: 15.1rem;
-        text-shadow: 4px 4px #000;
+
       }
 
       .header_title--line {
