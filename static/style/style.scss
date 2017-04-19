@@ -1,18 +1,84 @@
 @import url('https://fonts.googleapis.com/css?family=Exo');
 
 body {
-  font-famaily: 'Exo', sans-serif;
-  margin:0;
+  font-family: 'Exo', sans-serif;
+  margin: 0;
   padding: 0;
+  font-size: 18px;
+  background: #31353e;
 }
-.ab{
-  background: red;
-  .abc {
-    background-color: aqua;
+
+.app {
+
+  .header {
+    color: white;
+    background: url("~@/assets/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+
+    .header_navbar {
+      overflow: hidden;
+      position: fixed;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      height: 80px;
+      background-color: rgba(0, 0, 0, 0.50);
+
+      .header_navbar--logo {
+        height: 100%;
+        width: auto;
+      }
+
+      .header_navbar--links {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        list-style-type: none;
+
+        .link {
+          text-decoration: none;
+          padding-left: 30px;
+          color: white;
+
+          .link--href {
+            text-decoration: none;
+            color: #ffffff;
+
+            &:hover {
+              color: #feb047;
+            }
+          }
+        }
+      }
+    }
+
+    .header_title {
+      height: 100%;
+
+      .header_title--name {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        padding-top: 15%;
+        font-size: 15.1rem;
+        text-shadow: 4px 4px #000;
+      }
+
+      .header_title--line {
+        width: 50%;
+      }
+
+      .header_title--slogan {
+        text-shadow: 2px 2px #000;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        font-size: 3.6rem;
+      }
+    }
   }
 
-  .a{
-    background-image: url("../src/assets/logo.png");
-    height: 200px;
-  }
 }
