@@ -7,7 +7,7 @@
           <li class="link"><a class="link--href" href="#">Strona Główna</a></li>
           <li class="link"><a class="link--href" href="#">O nas</a></li>
           <li class="link"><a class="link--href" href="#">Plany</a></li>
-          <li class="link"><a class="link--href" href="#">Zborjownia</a></li>
+          <li class="link"><a class="link--href" href="#">Zbrojownia</a></li>
           <li class="link"><a class="link--href" href="#">Galeria</a></li>
         </ul>
       </nav>

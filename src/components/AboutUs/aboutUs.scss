@@ -1,0 +1,43 @@
+
+.aboutUs {
+  display: flex;
+  margin-top: 100px;
+  font-size: 20px;
+
+  .aboutUs_description {
+    color: #ffffff;
+    width: 450px;
+    text-align: right;
+
+    .title {
+      margin-top: -20px;
+      font-size: 3rem;
+    }
+  }
+
+  .aboutUs_line {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .aboutUs_logo {
+    width: 450px;
+    height: 100px;
+
+    .aboutUs_logo-img {
+      width: 240px;
+      height: auto;
+    }
+  }
+}
+
+
+@media (max-width: 990px) {
+  .aboutUs {
+    font-size: 14px;
+
+    .title{
+      font-size: 2rem;
+    }
+  }
+}
