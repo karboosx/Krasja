@@ -1,7 +1,6 @@
 <template>
   <div class="members">
     <div class="members_image">
-
       <div class="members_image--content">
         <img class="img" src="../../assets/harun.png">
         <p class="name">AIMA</p>
@@ -29,7 +28,7 @@
           <img class="list--img" src="../../assets/icons/magic-wand.png">
         </li>
         <li class="list">
-          <img class="list--img" src="../../assets/icons/round-shield.png">
+          <img class="list--img" src="../../assets/icons/shield.png">
         </li>
         <li class="list">
           <img class="list--img" src="../../assets/icons/mace.png">
@@ -57,5 +56,5 @@
 </script>
 
 <style lang="scss">
-  @import 'members'
+  @import 'members';
 </style>

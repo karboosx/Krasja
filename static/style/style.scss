@@ -1,22 +1,23 @@
-@import url('http://fonts.googleapis.com/css?family=Sarala&subset=latin,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-  font-family: 'Sarala', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
   font-size: 18px;
-  background: #31353e;
+  background: #454b57;
 }
 
 .app {
 
   .header {
+
     color: white;
     background: url("~@/assets/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 850px;
+    height: 100vh;
 
     .header_navbar {
       padding-top: 5px;
@@ -26,8 +27,8 @@ body {
       width: 100%;
       display: flex;
       justify-content: space-around;
-      height: 70px;
-      background-color: rgba(0, 0, 0, 0.7);
+      height: 60px;
+      background-color: rgba(24, 24, 24, 0.7);
 
       .header_navbar--logo {
         height: 100%;
@@ -63,8 +64,8 @@ body {
       height: 100%;
 
       .header_title--name {
-        font-size: 15.1rem;
-        text-shadow: 4px 4px #000;
+        font-size: 14rem;
+        text-shadow: 3px 3px #181818;
         line-height: 100%;
         margin: 0;
         display: flex;
@@ -78,13 +79,28 @@ body {
       }
 
       .header_title--slogan {
-        text-shadow: 2px 2px #000;
+        text-shadow: 2px 2px #181818;
         margin: 0;
         display: flex;
         justify-content: center;
-        font-size: 3.6rem;
+        font-size: 3.3rem;
       }
     }
   }
+}
 
+.main {
+  display: flex;
+  justify-content: center;
+  padding-top: 120px;
+
+  .main_content {
+
+    .main_title {
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      font-size: 4rem;
+    }
+  }
 }

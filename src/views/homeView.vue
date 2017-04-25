@@ -1,10 +1,12 @@
 <template>
   <section class="main">
-    <div class="main_title">
-      GRUPA KRASJA
+    <div class="main_content">
+      <div class="main_title">
+        GRUPA KRASJA
+      </div>
+      <aboutus></aboutus>
+      <members></members>
     </div>
-    <aboutus></aboutus>
-    <members></members>
   </section>
 </template>
 
