@@ -28,7 +28,7 @@
       .list {
         display: flex;
         justify-content: center;
-        border: 2px solid #7f7f7f;
+        border: 2px solid #292929;
         margin-right: 5px;
         margin-top: 5px;
         width:65px;
@@ -37,7 +37,8 @@
         align-items: center;
 
         &:hover {
-          background: #7f7f7f;
+          box-shadow: 1px 2px 3px 2px #292e39;
+          background: #d4d4d4;
         }
 
         .list--img {
@@ -73,6 +74,7 @@
       width: 300px;
       border-radius: 5px;
       background: #515c70;
+      box-shadow: 1px 2px 4px 2px rgba(30, 32, 44, 0.29);
 
       .img {
         border-radius: 10px;
