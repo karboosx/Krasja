@@ -16,7 +16,7 @@
       margin-bottom: 25px;
     }
 
-    .members_list--ul{
+    .members_list--ul {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
@@ -28,16 +28,16 @@
       .list {
         display: flex;
         justify-content: center;
-        border: 2px solid #7f7f7f;
+        border: 1px solid #d1b26f;
         margin-right: 5px;
         margin-top: 5px;
-        width:65px;
+        width: 65px;
         height: 65px;
         border-radius: 50%;
         align-items: center;
 
         &:hover {
-          background: #7f7f7f;
+          background-color: #d1b26f;
         }
 
         .list--img {
@@ -46,13 +46,27 @@
         }
       }
     }
+    .name_person {
+      display: flex;
+      justify-content: center;
 
+      .hr {
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 55px;
+        height: 1px;
+        background: #d1b26f;
+
+      }
       .description--name {
         display: flex;
         justify-content: center;
         font-size: 1.5rem;
+
       }
-    .description{
+    }
+    .description {
       font-size: 1.2rem;
     }
   }
@@ -69,24 +83,36 @@
     justify-content: flex-end;
 
     .members_image--content {
-      height: 380px;
+      height: 400px;
       width: 300px;
-      border-radius: 5px;
-      background: #515c70;
+      border-radius: 2px;
+      border: 1px solid #d0a45c;
 
       .img {
-        border-radius: 10px;
+        border-radius: 2px;
         padding: 5px;
         width: 97%;
         height: auto;
       }
+      .content_hr {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        .hr {
+          width: 100px;
+          height: 1px;
+          background: #d1b26f;
+        }
+      }
 
       .name {
-        margin: 0;
+        margin-top: 5px;
         color: #ffffff;
         padding-bottom: 10px;
         display: flex;
         justify-content: center;
+
       }
     }
   }

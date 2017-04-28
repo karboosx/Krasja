@@ -3,6 +3,10 @@
     <div class="members_image">
       <div class="members_image--content">
         <img class="img" src="../../assets/harun.png">
+        <div class="content_hr">
+          <div class="hr"></div>
+          <div class="hr"></div>
+        </div>
         <p class="name">AIMA</p>
       </div>
     </div>
@@ -34,8 +38,13 @@
           <img class="list--img" src="../../assets/icons/mace.png">
         </li>
       </ul>
-
-        <h2 class="description--name">Szymon Gąsior</h2>
+      <div class="name_person">
+        <div class="hr"></div>
+        <h2 class="description--name">
+          Szymon Gąsior
+        </h2>
+        <div class="hr"></div>
+      </div>
       <p class="description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna
