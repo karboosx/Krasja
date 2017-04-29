@@ -2,6 +2,7 @@
   <div class="aboutUs">
     <div class="aboutUs_description">
       <p class="title">O NAS</p>
+
       <p class="description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -15,7 +16,8 @@
         </p>
     </div>
     <div class="aboutUs_line">
-      <img src="../../assets/line--top.png">
+      <div class="circle"></div>
+      <div class="hr"></div>
     </div>
     <div class="aboutUs_logo">
       <img class="aboutUs_logo-img" src="../../assets/logo--white.png">
@@ -28,5 +30,5 @@
 </script>
 
 <style lang="scss">
-  @import 'aboutUs'
+  @import 'aboutUs';
 </style>

@@ -12,7 +12,8 @@
     </div>
 
     <div class="members_line">
-      <img src="../../assets/line--top.png">
+      <div class="circle"></div>
+      <div class="hr"></div>
     </div>
 
     <div class="members_description">
