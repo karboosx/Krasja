@@ -1,9 +1,7 @@
 <template>
   <div id="app" class="app">
     <header class="header">
-      <nav class="header_navbar">
-        <img class="header_navbar--logo" src="~@/assets/logo.png">
-        <ul class="header_navbar--links">
+      <nav class="header_navbar"><ul class="header_navbar--links">
           <li class="link"><a class="link--href" href="#">Strona Główna</a></li>
           <li class="link"><a class="link--href" href="#">O nas</a></li>
           <li class="link"><a class="link--href" href="#">Plany</a></li>
