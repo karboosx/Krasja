@@ -20,23 +20,23 @@
       <p class="title">NASZA KOMPANIA</p>
 
       <ul class="members_list--ul">
-        <li class="list">
-          <img class="list--img" src="../../assets/icons/dagger.png">
+        <li class="list list-axe">
+          <a class="list--img list_img-axe" ></a>
         </li>
-        <li class="list">
-          <img class="list--img" src="../../assets/icons/sword.png">
+        <li class="list list-sword">
+          <a class="list--img list_img-sword"></a>
         </li>
-        <li class="list">
-          <img class="list--img" src="../../assets/icons/axe.png">
+        <li class="list list-wand">
+          <a class="list--img list_img-wand"></a>
         </li>
-        <li class="list">
-          <img class="list--img" src="../../assets/icons/magic-wand.png">
+        <li class="list list-mace">
+          <a class="list--img list_img-mace" ></a>
         </li>
-        <li class="list">
-          <img class="list--img" src="../../assets/icons/shield.png">
+        <li class="list list-dagger">
+          <a class="list--img list_img-dagger"></a>
         </li>
-        <li class="list">
-          <img class="list--img" src="../../assets/icons/mace.png">
+        <li class="list list-shield">
+          <a class="list--img list_img-shield"></a>
         </li>
       </ul>
       <div class="name_person">

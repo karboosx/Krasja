@@ -21,7 +21,7 @@
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      justify-content: flex-start;
+      justify-content: flex;
       list-style-type: none;
       padding: 0;
       margin: 30px 0 60px 0;
@@ -42,8 +42,87 @@
         }
 
         .list--img {
-          width: 45px;
-          height: 45px;
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      .list-axe {
+        background-image: url("../../assets/icons/axe_y.png");
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:hover {
+          background-image: url("../../assets/icons/axe.png");
+          background-size: 50px 50px;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .list-sword {
+        background-image: url("../../assets/icons/sword_y.png");
+        background-size: 45px 45px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+
+        &:hover {
+          background-image: url("../../assets/icons/sword.png");
+          background-size: 45px 45px;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .list-wand {
+        background-image: url("../../assets/icons/wand_y.png");
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:hover {
+          background-image: url("../../assets/icons/magic-wand.png");
+          background-size: 50px 50px;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .list-mace {
+        background-image: url("../../assets/icons/mace_y.png");
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:hover {
+          background-image: url("../../assets/icons/mace.png");
+          background-size: 50px 50px;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .list-dagger {
+        background-image: url("../../assets/icons/dagger_y.png");
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:hover {
+          background-image: url("../../assets/icons/dagger.png");
+          background-size: 50px 50px;
+          background-repeat: no-repeat;
+        }
+      }
+
+      .list-shield {
+        background-image: url("../../assets/icons/shield_y.png");
+        background-size: 50px 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        &:hover {
+          background-image: url("../../assets/icons/shield.png");
+          background-size: 50px 50px;
+          background-repeat: no-repeat;
         }
       }
     }
