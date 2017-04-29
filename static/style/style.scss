@@ -89,17 +89,19 @@ body {
 }
 
 .main {
-  display: flex;
-  justify-content: center;
-  padding-top: 120px;
+  .main_c {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
 
-  .main_content {
+    .main_content {
 
-    .main_title {
-      color: #ffffff;
-      display: flex;
-      justify-content: center;
-      font-size: 4rem;
+      .main_title {
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+      }
     }
   }
 }
