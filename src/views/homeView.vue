@@ -4,7 +4,6 @@
       <div class="main_content">
         <div class="main_title">
           GRUPA KRASJA
-
         </div>
         <aboutus></aboutus>
         <members></members>
