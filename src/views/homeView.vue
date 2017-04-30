@@ -11,6 +11,7 @@
       </div>
     </div>
     <events></events>
+    <endOfPage></endOfPage>
   </section>
 </template>
 
@@ -19,6 +20,7 @@
   import members from '../components/Members/members.vue'
   import endContent from '../components/endContent/endContent.vue'
   import events from '../components/events/events.vue'
+  import endOfPage from '../components/endOfPage/endOfPage.vue'
 
   export default {
     name: 'home',
@@ -26,7 +28,8 @@
       aboutus,
       members,
       endContent,
-      events
+      events,
+      endOfPage
     }
   }
 </script>

@@ -1,0 +1,91 @@
+
+.footer {
+  background-color: #161616;
+  height: 100px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+
+  .footer_media {
+    margin-left: 100px;
+    margin-top: 50px;
+
+    .footer_media_icons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+
+      .footer_media_icons_social_media {
+        margin-top: 10px;
+        margin-right: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        width: 45px;
+        height: 45px;
+      }
+
+      .footer_media_icons_social_media {
+
+        &:hover {
+          border: 1px solid rgba(59, 89, 152, 0.31);
+          color: #3b5998;
+        }
+      }
+
+      .footer_media_icons_social_media--twitter {
+
+        &:hover {
+          border: 1px solid rgba(0, 172, 237, 0.3);
+          color: #00aced;
+        }
+      }
+
+      .footer_media_icons_social_media--pinteres {
+
+        &:hover {
+          border: 1px solid rgba(201, 34, 40, 0.3);
+          color: #C92228;
+        }
+      }
+    }
+  }
+
+  .footer_icon {
+    margin-right: 100px;
+
+    .footer_icon_img {
+      margin-left: -40px;
+      margin-top: -190px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .footer_media_contact {
+    margin-right: 100px;
+    margin-top: 50px;
+
+    .footer_media_contact_phone_owner {
+      margin-top: 30px;
+      margin-right: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      font-size: 18px;
+      font-weight: bold;
+      border: 1px solid rgba(255, 255, 255, 0.5);
+      width: 75px;
+      height: 45px;
+
+      &:hover {
+        border: 1px solid rgba(225, 178, 101, 0.31);
+        color: #e1b265;
+      }
+    }
+  }
+}
+

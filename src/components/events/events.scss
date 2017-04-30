@@ -4,19 +4,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 950px;
 
-  .events_title {
-    padding-top: 150px;
-    color: #fff;
-    font-size: 3rem;
-  }
   .events_section {
     margin-left: -70px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    height: 100vh;
 
     .events_section_container {
       background: url("../../assets/harun.png");
@@ -25,17 +19,17 @@
       background-position: center;
       width: 350px;
       height: 300px;
-      margin-top: 150px;
+      margin-top: 200px;
       margin-left: 50px;
       border-radius: 2px;
 
 
       .events_section_container_event {
-        margin-left: 10px;
+        margin-left: 13px;
         margin-top: -20px;
         height: 500px;
         width: 320px;
-        border: 1px solid #e1b265;
+        border: 1px solid rgba(225, 178, 101, 0.55);
         border-radius: 2px;
 
         .events_section_container_event_title {
