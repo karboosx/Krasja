@@ -3,6 +3,7 @@
     <div class="footer_media">
       Media:
 
+
       <div class="footer_media_icons">
         <span class="footer_media_icons_social_media footer_media_icons_social_media--facebook">facebook</span>
         <span class="footer_media_icons_social_media footer_media_icons_social_media--twitter">twitter</span>
@@ -16,9 +17,13 @@
 
     <div class="footer_media_contact">
       Kontakt:
+
       <div class="footer_media_contact_phone">
-      <span class=" footer_media_contact_phone_owner">725085596</span>
-    </div>
+        <span class=" footer_media_contact_phone_owner">725 085 596</span>
+      </div>
+      <div class="footer_media_contact_email">
+        <span class=" footer_media_contact_email_owner">krasja@gmail.com</span>
+      </div>
     </div>
   </div>
 </template>
