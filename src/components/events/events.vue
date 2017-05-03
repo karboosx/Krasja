@@ -3,6 +3,7 @@
     <div class="events_section">
       <div class="events_section_container">
         <div class="events_section_container_event">
+          <img class="events_section_container_event_img" src="../../assets/harun.png">
           <h1 class="events_section_container_event_title">
             Fort 2016
           </h1>
@@ -14,6 +15,7 @@
 
       <div class="events_section_container">
         <div class="events_section_container_event">
+          <img class="events_section_container_event_img" src="../../assets/harun.png">
           <h1 class="events_section_container_event_title">
             Fort 2016
           </h1>
@@ -25,6 +27,7 @@
 
       <div class="events_section_container">
         <div class="events_section_container_event">
+          <img class="events_section_container_event_img" src="../../assets/harun.png">
           <h1 class="events_section_container_event_title">
             Fort 2016
           </h1>
