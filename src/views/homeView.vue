@@ -1,8 +1,8 @@
 <template>
   <section class="main">
-    <div class="main_c">
+    <div class="main_container">
       <div class="main_content">
-        <div class="main_title">
+        <div class="main_content_title">
           GRUPA KRASJA
         </div>
         <aboutus></aboutus>

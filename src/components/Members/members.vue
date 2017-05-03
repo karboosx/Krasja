@@ -1,25 +1,25 @@
 <template>
   <div class="members">
     <div class="members_image">
-      <div class="members_image--content">
-        <img class="img" src="../../assets/harun.png">
-        <div class="content_hr">
-          <div class="hr"></div>
-          <div class="hr"></div>
+      <div class="members_image_content">
+        <img class="members_image_content_img" src="../../assets/harun.png">
+        <div class="members_image_content_hr">
+          <div class="members_image_content_hr_left"></div>
+          <div class="members_image_content_hr_right"></div>
         </div>
-        <p class="name">AIMA</p>
+        <p class="members_image_content_name">AIMA</p>
       </div>
     </div>
 
     <div class="members_line">
-      <div class="circle"></div>
-      <div class="hr"></div>
+      <div class="members_line_circle"></div>
+      <div class="members_line_hr"></div>
     </div>
 
     <div class="members_description">
-      <p class="title">NASZA KOMPANIA</p>
+      <p class="members_description_title">NASZA KOMPANIA</p>
 
-      <ul class="members_list--ul">
+      <ul class="mmembers_description_list">
         <li class="list list-axe">
           <a class="list--img list_img-axe" ></a>
         </li>
@@ -39,12 +39,12 @@
           <a class="list--img list_img-shield"></a>
         </li>
       </ul>
-      <div class="name_person">
-        <div class="hr"></div>
-        <h2 class="description--name">
+      <div class="members_description_name_person">
+        <div class="members_description_name_person_hr"></div>
+        <h2 class="members_description_name_person_title">
           Szymon Gąsior
         </h2>
-        <div class="hr"></div>
+        <div class="members_description_name_person_hr"></div>
       </div>
       <p class="description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,

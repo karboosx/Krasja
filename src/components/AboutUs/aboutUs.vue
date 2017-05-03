@@ -1,9 +1,9 @@
 <template>
   <div class="aboutUs">
     <div class="aboutUs_description">
-      <p class="title">O NAS</p>
+      <p class="aboutUs_description_title">O NAS</p>
 
-      <p class="description">
+      <p class="aboutUs_description_description">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna
         aliqua. Ut enim ad minim veniam, quis nostrud exercitation
@@ -16,11 +16,11 @@
         </p>
     </div>
     <div class="aboutUs_line">
-      <div class="circle"></div>
-      <div class="hr"></div>
+      <div class="aboutUs_line_circle"></div>
+      <div class="aboutUs_line_hr"></div>
     </div>
     <div class="aboutUs_logo">
-      <img class="aboutUs_logo-img" src="../../assets/logo--white.png">
+      <img class="aboutUs_logo_img" src="../../assets/logo--white.png">
     </div>
   </div>
 </template>

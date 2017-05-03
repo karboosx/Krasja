@@ -11,22 +11,12 @@
     width: 450px;
     text-align: right;
 
-    .title {
+    .aboutUs_description_title {
       margin-top: -10px;
       font-size: 2.2rem;
     }
 
-    .dark-background {
-      margin-left: -40px;
-      margin-top: -80px;
-      z-index: -1;
-      width: 515px;
-      height: 300px;
-      background: #1c1c1c;
-      position: absolute;
-      border-radius: 2px;
-    }
-    .description {
+    .aboutUs_description_description {
       color: #606060;
       z-index: 1;
       margin-top: 60px;
@@ -38,14 +28,14 @@
     margin-left: 25px;
     margin-right: 25px;
 
-    .circle {
+    .aboutUs_line_circle {
       width: 20px;
       height: 20px;
       border: 2px solid #fff;
       border-radius: 50%;
     }
 
-    .hr {
+    .aboutUs_line_hr {
       margin-left: 11px;
       width: 2px;
       height: 100%;
@@ -58,7 +48,7 @@
     width: 450px;
     height: 450px;
 
-    .aboutUs_logo-img {
+    .aboutUs_logo_img {
       width: auto;
       height: 100%;
     }

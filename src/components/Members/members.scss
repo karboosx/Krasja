@@ -11,17 +11,16 @@
     color: #ffffff;
     text-align: left;
 
-    .title {
+    .members_description_title {
       margin-top: -10px;
       font-size: 2.2rem;
       margin-bottom: 25px;
     }
 
-    .members_list--ul {
+    .mmembers_description_list {
       width: 100%;
       display: flex;
       flex-wrap: wrap;
-      justify-content: flex;
       list-style-type: none;
       padding: 0;
       margin: 30px 0 60px 0;
@@ -126,11 +125,11 @@
         }
       }
     }
-    .name_person {
+    .members_description_name_person {
       display: flex;
       justify-content: center;
 
-      .hr {
+      .members_description_name_person_hr {
         margin-top: 40px;
         margin-left: 20px;
         margin-right: 20px;
@@ -139,7 +138,7 @@
         background: #d1b26f;
 
       }
-      .description--name {
+      .members_description_name_person_title {
         display: flex;
         justify-content: center;
         font-size: 1.5rem;
@@ -156,14 +155,14 @@
     margin-left: 25px;
     margin-right: 25px;
 
-    .circle {
+    .members_line_circle {
       width: 20px;
       height: 20px;
       border: 2px solid #fff;
       border-radius: 50%;
     }
 
-    .hr {
+    .members_line_hr {
       margin-left: 11px;
       width: 2px;
       height: 100%;
@@ -177,31 +176,37 @@
     display: flex;
     justify-content: flex-end;
 
-    .members_image--content {
+    .members_image_content {
       height: 400px;
       width: 300px;
       border-radius: 2px;
       border: 1px solid #d0a45c;
 
-      .img {
+      .members_image_content_img {
         border-radius: 2px;
         padding: 5px;
         width: 97%;
         height: auto;
       }
-      .content_hr {
+      .members_image_content_hr {
         margin-top: 10px;
         display: flex;
         justify-content: space-between;
 
-        .hr {
+        .members_image_content_hr_left {
+          width: 100px;
+          height: 1px;
+          background: #d1b26f;
+        }
+
+        .members_image_content_hr_right {
           width: 100px;
           height: 1px;
           background: #d1b26f;
         }
       }
 
-      .name {
+      .members_image_content_name {
         margin-top: 5px;
         color: #ffffff;
         padding-bottom: 10px;
