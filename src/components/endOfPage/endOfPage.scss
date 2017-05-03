@@ -2,14 +2,15 @@
 
 .footer {
   background-color: $color_background;
-  height: 100px;
+  height: 150px;
   color: $color_white;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 50px;
 
   .footer_media {
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 130px;
+    margin-top: 20px;
 
     .footer_media_icons {
       display: flex;
@@ -56,15 +57,15 @@
   .footer_icon {
 
     .footer_icon_img {
-      margin-left: -40px;
-      margin-top: -190px;
+      margin-left: -60px;
+      margin-top: -170px;
       margin-bottom: 30px;
     }
   }
 
   .footer_media_contact {
-    margin-right: 100px;
-    margin-top: 50px;
+    margin-right: 130px;
+    margin-top: 20px;
 
     .footer_media_contact_phone_owner {
       margin-top: 10px;
