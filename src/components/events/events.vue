@@ -3,9 +3,9 @@
     <div class="events_section">
       <div class="events_section_container">
         <div class="events_section_container_event">
-          <img class="events_section_container_event_img" src="../../assets/harun.png">
+          <img class="events_section_container_event_img" src="../../assets/gothic.png">
           <h1 class="events_section_container_event_title">
-            Fort 2016
+            Gothic 2014
           </h1>
           <p class="events_section_container_event_descriptio">
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -15,9 +15,9 @@
 
       <div class="events_section_container">
         <div class="events_section_container_event">
-          <img class="events_section_container_event_img" src="../../assets/harun.png">
+          <img class="events_section_container_event_img" src="../../assets/fanta.png">
           <h1 class="events_section_container_event_title">
-            Fort 2016
+            Fantazjada 2015
           </h1>
           <p class="events_section_container_event_descriptio">
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
@@ -27,7 +27,7 @@
 
       <div class="events_section_container">
         <div class="events_section_container_event">
-          <img class="events_section_container_event_img" src="../../assets/harun.png">
+          <img class="events_section_container_event_img" src="../../assets/fort.png">
           <h1 class="events_section_container_event_title">
             Fort 2016
           </h1>
