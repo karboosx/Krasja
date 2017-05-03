@@ -3,10 +3,9 @@
     <header class="header">
       <nav class="header_navbar"><ul class="header_navbar--links">
           <li class="link"><a class="link--href" href="#">Strona Główna</a></li>
-          <li class="link"><a class="link--href" href="#">O nas</a></li>
-          <li class="link"><a class="link--href" href="#">Plany</a></li>
-          <li class="link"><a class="link--href" href="#">Zbrojownia</a></li>
-          <li class="link"><a class="link--href" href="#">Galeria</a></li>
+        <li class="link"><a class="link--href" href="#">O nas</a></li>
+        <li class="link"><a class="link--href" href="#">Nasza kompania</a></li>
+        <li class="link"><a class="link--href" href="#">Larpy</a></li>
         </ul>
       </nav>
       <div class="header_title">
