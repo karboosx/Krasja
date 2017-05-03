@@ -1,3 +1,5 @@
+@import '../../../static/style/var';
+
 .events {
   margin-top: 100px;
   background: url("../../assets/events.png");
@@ -29,14 +31,14 @@
         margin-top: -20px;
         height: 500px;
         width: 320px;
-        border: 1px solid rgba(225, 178, 101, 0.55);
+        border: 1px solid $color_yellow;
         border-radius: 2px;
 
         .events_section_container_event_title {
           margin-top: 335px;
           padding-left: 10px;
           padding-right: 10px;
-          color: #fff;
+          color: $color_white;
           font-weight: 400;
           font-size: 1.3rem;
         }
@@ -45,7 +47,7 @@
           padding-left: 10px;
           padding-right: 10px;
           font-size: 12px;
-          color: #fff;
+          color: $color_white;
         }
       }
     }

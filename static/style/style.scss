@@ -1,17 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import '../../static/style/var.scss';
 
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
   font-size: 18px;
-  background: #161616;
+  background: $color_background;
 }
 
 .app {
 
   .header {
-    color: white;
+    color: $color_white;
     background: url("~@/assets/background.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,21 +46,21 @@ body {
           justify-content: center;
           margin-left: 50px;
           text-decoration: none;
-          color: white;
+          color: $color_white;
 
           .header_navbar_menu_link_href {
-            border: 1px solid #ffffff;
+            border: 1px solid $color_white;
             padding: 7px;
             margin-top: 10px;
-            font-size: 20px;
+            font-size: 16px;
             text-decoration: none;
-            color: #ffffff;
+            color: $color_white;
             transition: .25s;
 
             &:hover {
-              border: 1px solid #f8c867;
+              border: 1px solid $color_yellow;
               filter: grayscale(0);
-              color: #f8c867;
+              color: $color_yellow;
             }
           }
         }
@@ -71,7 +72,7 @@ body {
 
       .header_title_name {
         font-size: 14rem;
-        text-shadow: 3px 3px #181818;
+        text-shadow: 3px 3px $color_background;
         line-height: 100%;
         margin: 0;
         display: flex;
@@ -85,7 +86,7 @@ body {
       }
 
       .header_title_slogan {
-        text-shadow: 2px 2px #181818;
+        text-shadow: 2px 2px $color_background;
         margin: 0;
         display: flex;
         justify-content: center;
@@ -104,7 +105,7 @@ body {
     .main_content {
 
       .main_content_title {
-        color: #ffffff;
+        color: $color_white;
         display: flex;
         justify-content: center;
         font-size: 4rem;

@@ -1,8 +1,9 @@
+@import '../../../static/style/var';
 
 .footer {
-  background-color: #161616;
+  background-color: $color_background;
   height: 100px;
-  color: #fff;
+  color: $color_white;
   display: flex;
   justify-content: space-between;
 
@@ -23,7 +24,7 @@
         align-items: center;
         font-size: 18px;
         font-weight: bold;
-        border: 1px solid rgba(255, 255, 255, 0.5);
+        border: 1px solid $color_grey;
         width: 45px;
         height: 45px;
       }
@@ -77,13 +78,13 @@
       flex-wrap: nowrap;
       font-size: 18px;
       font-weight: bold;
-      border: 1px solid rgba(255, 255, 255, 0.5);
+      border: 1px solid $color_grey;
       width: 75px;
       height: 45px;
 
       &:hover {
-        border: 1px solid rgba(225, 178, 101, 0.31);
-        color: #e1b265;
+        border: 1px solid $color_yellow;
+        color: $color_yellow;
       }
     }
   }

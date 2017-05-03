@@ -1,3 +1,4 @@
+@import '../../../static/style/var';
 
 .aboutUs {
   display: flex;
@@ -7,7 +8,7 @@
   height: 750px;
 
   .aboutUs_description {
-    color: #ffffff;
+    color: $color_white;
     width: 450px;
     text-align: right;
 
@@ -17,7 +18,7 @@
     }
 
     .aboutUs_description_description {
-      color: #606060;
+      color: $color_grey;
       z-index: 1;
       margin-top: 60px;
       font-size: 1.2rem;
@@ -31,7 +32,7 @@
     .aboutUs_line_circle {
       width: 20px;
       height: 20px;
-      border: 2px solid #fff;
+      border: 2px solid $color_white;
       border-radius: 50%;
     }
 
@@ -39,7 +40,7 @@
       margin-left: 11px;
       width: 2px;
       height: 100%;
-      background-color: #ffffff;
+      background-color: $color_white;
     }
   }
 
