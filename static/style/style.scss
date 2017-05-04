@@ -21,10 +21,10 @@ body {
     padding-top: 100px;
 
     .header_navbar {
-      background: rgba(7, 7, 7, 0.71);
-      padding-top: 5px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      background: #161616;
+      padding: 0;
       margin-top: -100px;
-      padding-bottom: 15px;
       overflow: hidden;
       position: fixed;
       width: 100%;
@@ -34,6 +34,8 @@ body {
       height: 60px;
 
       .header_navbar_menu {
+        margin-top:0;
+        margin-bottom:0;
         margin-right: 200px;
         display: flex;
         align-items: center;
@@ -41,11 +43,17 @@ body {
         list-style-type: none;
 
         .header_navbar_menu_link {
+          height: 100%;
           display: flex;
           justify-content: center;
           margin-left: 50px;
           text-decoration: none;
           color: $color_white;
+
+          &:hover {
+            background: rgba(7, 7, 7, 0.57);
+
+          }
 
           .header_navbar_menu_link_href {
             padding: 7px;
