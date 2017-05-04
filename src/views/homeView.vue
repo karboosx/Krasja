@@ -6,7 +6,7 @@
           GRUPA KRASJA
         </div>
         <aboutus></aboutus>
-        <members :dataMembers="config"></members>
+        <members></members>
         <endContent></endContent>
       </div>
     </div>

@@ -17,8 +17,7 @@
       justify-content: center;
 
       .footer_media_icons_social_media {
-
-        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
         margin-top: 10px;
         margin-right: 10px;
         display: flex;
@@ -33,6 +32,7 @@
       .footer_media_icons_social_media {
 
         &:hover {
+          box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
           border: 1px solid #3b5998;
           color: #3b5998;
         }
@@ -41,6 +41,7 @@
       .footer_media_icons_social_media--twitter {
 
         &:hover {
+          box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
           border: 1px solid #00aced;
           color: #00aced;
         }
@@ -49,6 +50,7 @@
       .footer_media_icons_social_media--pinteres {
 
         &:hover {
+          box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
           border: 1px solid #C92228;
           color: #C92228;
         }
@@ -70,7 +72,7 @@
     margin-top: 20px;
 
     .footer_media_contact_phone_owner {
-      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
       margin-top: 10px;
       margin-right: 40px;
       display: flex;
@@ -83,13 +85,14 @@
       padding: 5px;
 
       &:hover {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         border: 1px solid $color_yellow;
         color: $color_yellow;
       }
     }
 
     .footer_media_contact_email{
-      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
       margin-top: 10px;
       margin-right: 40px;
       display: flex;
@@ -102,6 +105,7 @@
       padding: 5px;
 
       &:hover {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
         border: 1px solid $color_yellow;
         color: $color_yellow;
       }
