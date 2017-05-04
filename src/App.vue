@@ -23,8 +23,24 @@
   import home from './views/homeView.vue'
 
   export default {
+    data: () => {
+      return {
+        jsonData:{}
+      }
+    },
     components: {
       home
+    },
+    methods:{
+      getData: function() {
+
+        this.$http.get('/static/json/data.json').then(response => {
+          this.jsonData = response.body;
+        });
+      }
+    },
+    mounted(){
+      this.getData();
     }
   }
 </script>
