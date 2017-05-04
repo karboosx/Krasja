@@ -1,0 +1,48 @@
+@import '../../../static/style/var';
+
+.events {
+  background: url("../../assets/events.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1050px;
+
+  .events_section {
+    margin-left: -70px;
+    display: flex;
+    justify-content: center;
+
+
+    .events_section_container {
+      width: 365px;
+      margin-top: 250px;
+      margin-left: 50px;
+
+      .events_section_container_event_img{
+        padding:5px;
+      }
+
+      .events_section_container_event {
+        margin-left: 13px;
+        margin-top: -20px;
+        border: 1px solid $color_yellow;
+        border-radius: 2px;
+
+        .events_section_container_event_title {
+          padding-left: 10px;
+          padding-right: 10px;
+          color: $color_white;
+          font-weight: 400;
+          font-size: 1.3rem;
+        }
+
+        .events_section_container_event_descriptio {
+          padding-left: 10px;
+          padding-right: 10px;
+          font-size: 12px;
+          color: $color_white;
+        }
+      }
+    }
+  }
+}

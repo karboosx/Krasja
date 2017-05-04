@@ -1,59 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import '../../static/style/var.scss';
 
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
   font-size: 18px;
-  background: #454b57;
+  background: $color_background;
 }
 
 .app {
 
   .header {
-
-    color: white;
+    color: $color_white;
     background: url("~@/assets/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
+    padding-top: 100px;
 
     .header_navbar {
+      background: rgba(7, 7, 7, 0.71);
       padding-top: 5px;
-      padding-bottom: 5px;
+      margin-top: -100px;
+      padding-bottom: 15px;
       overflow: hidden;
       position: fixed;
       width: 100%;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       height: 60px;
-      background-color: rgba(24, 24, 24, 0.7);
 
       .header_navbar--logo {
         height: 100%;
         width: auto;
       }
 
-      .header_navbar--links {
+      .header_navbar_menu {
         display: flex;
         align-items: center;
-        justify-content: space-around;
+        justify-content: center;
         list-style-type: none;
 
-        .link {
+        .header_navbar_menu_link {
+          display: flex;
+          justify-content: center;
+          margin-left: 50px;
           text-decoration: none;
-          padding-left: 30px;
-          color: white;
+          color: $color_white;
 
-          .link--href {
+          .header_navbar_menu_link_href {
+            border: 1px solid $color_white;
+            padding: 7px;
+            margin-top: 10px;
+            font-size: 16px;
             text-decoration: none;
-            color: #ffffff;
-            transition: .35s;
+            color: $color_white;
+            transition: .25s;
 
             &:hover {
+              border: 1px solid $color_yellow;
               filter: grayscale(0);
-              color: #feb047;
+              color: $color_yellow;
             }
           }
         }
@@ -63,9 +72,9 @@ body {
     .header_title {
       height: 100%;
 
-      .header_title--name {
+      .header_title_name {
         font-size: 14rem;
-        text-shadow: 3px 3px #181818;
+        text-shadow: 3px 3px $color_background;
         line-height: 100%;
         margin: 0;
         display: flex;
@@ -74,12 +83,12 @@ body {
 
       }
 
-      .header_title--line {
+      .header_title_line {
         width: 50%;
       }
 
-      .header_title--slogan {
-        text-shadow: 2px 2px #181818;
+      .header_title_slogan {
+        text-shadow: 2px 2px $color_background;
         margin: 0;
         display: flex;
         justify-content: center;
@@ -90,17 +99,19 @@ body {
 }
 
 .main {
-  display: flex;
-  justify-content: center;
-  padding-top: 120px;
+  .main_container {
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
 
-  .main_content {
+    .main_content {
 
-    .main_title {
-      color: #ffffff;
-      display: flex;
-      justify-content: center;
-      font-size: 4rem;
+      .main_content_title {
+        color: $color_white;
+        display: flex;
+        justify-content: center;
+        font-size: 4rem;
+      }
     }
   }
 }

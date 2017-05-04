@@ -1,11 +1,24 @@
+@import '../../../static/style/style';
 
 .endContent {
+  margin-top: 12px;
   display: flex;
   justify-content: center;
-  margin-top: -5px;
 
-  .endContent-img {
-    width: 100%;
-    height: auto;
+  .endContent_circle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid $color_white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    .endContent_circle_img {
+      width: 80px;
+      height: 90%;
+    }
   }
+
 }

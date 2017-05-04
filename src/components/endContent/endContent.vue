@@ -1,16 +1,16 @@
 <template>
   <div class="endContent">
-    <img class="endContent--img" src="../../assets/endOfPage.png">
+    <div class="endContent_circle">
+      <img class="endContent_circle_img" src="../../assets/logo--white.png">
+    </div>
   </div>
 </template>
 
 <script>
-export default {
-
-}
+  export default {}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss" scoped>
   @import 'endContent.scss';
 </style>

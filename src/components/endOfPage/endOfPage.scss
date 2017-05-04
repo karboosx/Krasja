@@ -1,0 +1,107 @@
+@import '../../../static/style/var';
+
+.footer {
+  background-color: $color_background;
+  height: 150px;
+  color: $color_white;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+  .footer_media {
+    margin-left: 130px;
+    margin-top: 20px;
+
+    .footer_media_icons {
+      display: flex;
+      justify-content: center;
+
+      .footer_media_icons_social_media {
+        margin-top: 10px;
+        margin-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid $color_grey;
+        padding: 5px;
+      }
+
+      .footer_media_icons_social_media {
+
+        &:hover {
+          border: 1px solid #3b5998;
+          color: #3b5998;
+        }
+      }
+
+      .footer_media_icons_social_media--twitter {
+
+        &:hover {
+          border: 1px solid #00aced;
+          color: #00aced;
+        }
+      }
+
+      .footer_media_icons_social_media--pinteres {
+
+        &:hover {
+          border: 1px solid #C92228;
+          color: #C92228;
+        }
+      }
+    }
+  }
+
+  .footer_icon {
+
+    .footer_icon_img {
+      margin-left: -60px;
+      margin-top: -170px;
+      margin-bottom: 30px;
+    }
+  }
+
+  .footer_media_contact {
+    margin-right: 130px;
+    margin-top: 20px;
+
+    .footer_media_contact_phone_owner {
+      margin-top: 10px;
+      margin-right: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      font-size: 18px;
+      font-weight: bold;
+      border: 1px solid $color_grey;
+      padding: 5px;
+
+      &:hover {
+        border: 1px solid $color_yellow;
+        color: $color_yellow;
+      }
+    }
+
+    .footer_media_contact_email{
+      margin-top: 10px;
+      margin-right: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      font-size: 18px;
+      font-weight: bold;
+      border: 1px solid $color_grey;
+      padding: 5px;
+
+      &:hover {
+        border: 1px solid $color_yellow;
+        color: $color_yellow;
+      }
+    }
+  }
+}
+

@@ -1,21 +1,25 @@
+@import '../../../static/style/var';
 
 .aboutUs {
   display: flex;
   justify-content: center;
   margin-top: 80px;
   font-size: 1rem;
+  height: 750px;
 
   .aboutUs_description {
-    color: #ffffff;
+    color: $color_white;
     width: 450px;
     text-align: right;
 
-    .title {
+    .aboutUs_description_title {
       margin-top: -10px;
       font-size: 2.2rem;
     }
 
-    .description {
+    .aboutUs_description_description {
+      color: $color_grey;
+      z-index: 1;
       margin-top: 60px;
       font-size: 1.2rem;
     }
@@ -24,6 +28,20 @@
   .aboutUs_line {
     margin-left: 25px;
     margin-right: 25px;
+
+    .aboutUs_line_circle {
+      width: 20px;
+      height: 20px;
+      border: 2px solid $color_white;
+      border-radius: 50%;
+    }
+
+    .aboutUs_line_hr {
+      margin-left: 11px;
+      width: 2px;
+      height: 100%;
+      background-color: $color_white;
+    }
   }
 
   .aboutUs_logo {
@@ -31,19 +49,18 @@
     width: 450px;
     height: 450px;
 
-    .aboutUs_logo-img {
+    .aboutUs_logo_img {
       width: auto;
       height: 100%;
     }
   }
 }
 
-
 @media (max-width: 990px) {
   .aboutUs {
     font-size: 14px;
 
-    .title{
+    .title {
       font-size: 2rem;
     }
   }
