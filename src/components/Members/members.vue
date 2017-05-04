@@ -20,23 +20,22 @@
       <p class="members_description_title">NASZA KOMPANIA</p>
 
       <ul class="mmembers_description_list">
-        <li class="list list-axe">
-          <a class="list--img list_img-axe" v-on:click="write( 0 )"></a>
+        <li class="">
+          <a class="list list-axe list--img list_img-axe" v-on:click="write( 0 )"></a>
         </li>
-        <li class="list list-sword">
-          <a class="list--img list_img-sword"  v-on:click="write( 1 )"></a>
+        <li class="">
+          <a class="list list-sword list--img list_img-sword"  v-on:click="write( 1 )"></a>
         </li>
-        <li class="list list-wand">
-          <a class="list--img list_img-wand"></a>
-        </li>
-        <li class="list list-mace">
-          <a class="list--img list_img-mace"></a>
-        </li>
-        <li class="list list-dagger">
-          <a class="list--img list_img-dagger"></a>
-        </li>
-        <li class="list list-shield">
-          <a class="list--img list_img-shield"></a>
+        <li class="">
+          <a class="list list-wand list--img list_img-wand"  v-on:click="write( 2 )"></a>
+      </li>
+        <li class="">
+          <a class="list list-mace list--img list_img-mace"  v-on:click="write( 3 )"></a>
+      </li>
+        <li class="">
+          <a class="list list-dagger list--img list_img-dagger"  v-on:click="write( 4 )"></a>
+        <li class="">
+          <a class="list list-shield list--img list_img-shield"  v-on:click="write( 5 )"></a>
         </li>
       </ul>
       <div class="members_description_name_person">

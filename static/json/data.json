@@ -9,8 +9,32 @@
     {
       "name": "Szymon Gąsior",
       "description": " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-      "nick": "Aima",
+      "nick": "Sigwar",
       "img": "http://i.imgur.com/mXuWlkY.png"
+    },
+    {
+      "name": "Patryk Konieczny",
+      "description": " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "nick": "Harun",
+      "img": "http://i.imgur.com/D3ZtoDj.png"
+    },
+    {
+      "name": "Kacper Blak",
+      "description": " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "nick": "Harun",
+      "img": "http://i.imgur.com/iWdszp8.png"
+    },
+    {
+      "name": "Kuba Bednarczuk",
+      "description": " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "nick": "Harun",
+      "img": "http://i.imgur.com/iWdszp8.png"
+    },
+    {
+      "name": "Paweł Kisiński",
+      "description": " Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "nick": "Harun",
+      "img": "http://i.imgur.com/iWdszp8.png"
     }
   ]
 }
