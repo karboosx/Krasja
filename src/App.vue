@@ -23,7 +23,6 @@
   import home from './views/homeView.vue'
 
   export default {
-    name: 'app',
     components: {
       home
     }

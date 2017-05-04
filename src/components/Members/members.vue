@@ -2,12 +2,12 @@
   <div class="members">
     <div class="members_image">
       <div class="members_image_content">
-        <img class="members_image_content_img" src="../../assets/harun.png">
+        <img class="members_image_content_img" :src=" dataMembers.img ">
         <div class="members_image_content_hr">
           <div class="members_image_content_hr_left"></div>
           <div class="members_image_content_hr_right"></div>
         </div>
-        <p class="members_image_content_name">AIMA</p>
+        <p class="members_image_content_name">{{ dataMembers.nick }}</p>
       </div>
     </div>
 
@@ -21,16 +21,16 @@
 
       <ul class="mmembers_description_list">
         <li class="list list-axe">
-          <a class="list--img list_img-axe" ></a>
+          <a class="list--img list_img-axe" v-on:click="write( 0 )"></a>
         </li>
         <li class="list list-sword">
-          <a class="list--img list_img-sword"></a>
+          <a class="list--img list_img-sword"  v-on:click="write( 1 )"></a>
         </li>
         <li class="list list-wand">
           <a class="list--img list_img-wand"></a>
         </li>
         <li class="list list-mace">
-          <a class="list--img list_img-mace" ></a>
+          <a class="list--img list_img-mace"></a>
         </li>
         <li class="list list-dagger">
           <a class="list--img list_img-dagger"></a>
@@ -42,27 +42,41 @@
       <div class="members_description_name_person">
         <div class="members_description_name_person_hr"></div>
         <h2 class="members_description_name_person_title">
-          Szymon Gąsior
+          {{ dataMembers.name }}
         </h2>
         <div class="members_description_name_person_hr"></div>
       </div>
       <p class="description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna
-        aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        Duis aute irure dolor in reprehenderit in voluptate velit
-        esse cillum dolore eu fugiat nulla pariatur.
-        Excepteur sint occaecat cupidatat non proident,
-        sunt in culpa qui officia deserunt mollit anim
-        id est laborum.
+        {{ dataMembers.description }}
         </p>
     </div>
   </div>
 </template>
 
 <script>
+  import json from '../../../static/json/data.json'
 
+  export default {
+    data () {
+      return {
+        dataMembers: {
+          name: json.members[0].name,
+          description: json.members[0].description,
+          nick: json.members[0].nick,
+          img: json.members[0].img
+        }
+      }
+    },
+    methods: {
+      write (arg) {
+        this.dataMembers.name = json.members[arg].name
+        this.dataMembers.description = json.members[arg].description
+        this.dataMembers.nick = json.members[arg].nick
+        this.dataMembers.img = json.members[arg].img
+      }
+
+    }
+  }
 </script>
 
 <style lang="scss">

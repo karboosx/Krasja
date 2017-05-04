@@ -6,7 +6,7 @@
           GRUPA KRASJA
         </div>
         <aboutus></aboutus>
-        <members></members>
+        <members :dataMembers="config"></members>
         <endContent></endContent>
       </div>
     </div>
@@ -21,6 +21,7 @@
   import endContent from '../components/endContent/endContent.vue'
   import events from '../components/events/events.vue'
   import endOfPage from '../components/endOfPage/endOfPage.vue'
+  import config from '../data.js'
 
   export default {
     name: 'home',
@@ -30,10 +31,15 @@
       endContent,
       events,
       endOfPage
+    },
+    data () {
+      return {
+        config: config
+      }
     }
   }
 </script>
 
 <style lang="scss">
-  @improt '../../static/style/style.scss'
+  @improt '../../static/style/style.scss';
 </style>
