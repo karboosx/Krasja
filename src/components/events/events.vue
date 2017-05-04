@@ -3,7 +3,7 @@
     <div class="events_section">
       <div class="events_section_container">
         <div class="events_section_container_event">
-          <img class="events_section_container_event_img" src="../../assets/gothic.png">
+          <img class="events_section_container_event_img" src="http://i.imgur.com/rxPTG7X.png">
           <h1 class="events_section_container_event_title">
             Gothic 2014
           </h1>
@@ -15,7 +15,7 @@
 
       <div class="events_section_container">
         <div class="events_section_container_event">
-          <img class="events_section_container_event_img" src="../../assets/fanta.png">
+          <img class="events_section_container_event_img" src="http://i.imgur.com/jM9FDMC.png">
           <h1 class="events_section_container_event_title">
             Fantazjada 2015
           </h1>
@@ -27,7 +27,7 @@
 
       <div class="events_section_container">
         <div class="events_section_container_event">
-          <img class="events_section_container_event_img" src="../../assets/fort.png">
+          <img class="events_section_container_event_img" src="http://i.imgur.com/kXgmIeh.png">
           <h1 class="events_section_container_event_title">
             Fort 2016
           </h1>
